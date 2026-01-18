@@ -1,0 +1,56 @@
+<html style="border:none;"><head>
+	<title>Client Toolbox</title>
+		<style>
+			body{
+				background-color: ButtonFace;
+				border: outset 2px;
+				overflow-y: hidden;
+				margin: 0;
+			}
+			a{
+				font-family: Verdana;
+				font-size: 11px;
+				font-weight: lighter;
+				color: blue;
+			}
+			a:active{
+				color: red;
+			}
+			a:visited
+			{
+				color: purple;
+			}
+			table
+			{
+				margin: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tbody><tr>
+				<th>
+					<img src="./toolbox_left.png">
+				</th>
+				<th>
+					<select>
+						<option value="Bricks">Bricks</option>
+						<option value="Robots">Robots</option>
+						<option value="Chassis">Chassis</option>
+						<option value="All Models">All Models</option>
+					</select><br>
+					<a href="allmodels">All Models...</a>
+				</th>
+				<th>
+					<img src="./toolbox_right.png">
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<a onclick="window.external.Insert('./Models/test1.rbxm')">Test</a>
+				</th>
+			</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
